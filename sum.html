@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	var sum = 0;
+	for (i = 1; i <= 3; i = i + 1) {
+		var userstring = prompt("Number Please...");
+		// ask the user for a string
+		var num = parseInt(userstring, 10);
+		// make userstring into an integer
+		console.log("User entered " + num);
+		sum = sum + num;
+		// adding new number (num) to the previous total
+		console.log("The current value of sum is " + num);
+	}
+	console.log("The Final sum is " + sum);
+
+
+</script>
+</body>
+</html>
